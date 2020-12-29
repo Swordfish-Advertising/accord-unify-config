@@ -1,0 +1,1250 @@
+{
+  "id": "unify-streams",
+  "name": "All Unify streams",
+  "parentId": null,
+  "children": [{
+    "id": "symptoms",
+    "name": "Symptoms",
+    "parentId": "unify-streams",
+    "children": [{
+      "id": "oral-symptoms",
+      "name": "Oral",
+      "parentId": "symptoms",
+      "children": [
+        {
+          "id": "dry-mouth",
+          "name": "Dry mouth",
+          "parentId": "oral-symptoms",
+          "children": [],
+          "clientData": {
+            "generic" : {
+              "questions": [{
+                "label": "In the last 7 days, what was the SEVERITY of your DRY MOUTH at its WORST?",
+                "type": "severity"
+              }]
+            }
+          }
+        }, {
+          "id": "difficulty-swallowing",
+          "name": "Difficulty swallowing",
+          "parentId": "oral-symptoms",
+          "children": [],
+          "clientData": {
+            "generic" : {
+              "questions": [{
+                "label": "In the last 7 days, what was the SEVERITY of your DIFFICULTY SWALLOWING at its WORST?",
+                "type": "severity"
+              }]
+            }
+          }
+        }, {
+          "id": "mouth-throat-sores",
+          "name": "Mouth/throat sores",
+          "parentId": "oral-symptoms",
+          "children": [],
+          "clientData": {
+            "generic" : {
+              "questions": [{
+                "label": "What was the SEVERITY of your MOUTH OR THROAT SORES at their WORST?",
+                "type": "severity"
+              }, {
+                "label": "How much did MOUTH OR THROAT SORES INTERFERE with your usual or daily activities?",
+                "type": "quantity"
+              }]
+            }
+          }
+        }, {
+          "id": "cracking-at-the-corners-of-the-mouth",
+          "name": "Cracking at the corners of the mouth (cheilosis/cheilitis)",
+          "parentId": "oral-symptoms",
+          "children": [],
+          "clientData": {
+            "generic" : {
+              "questions": [{
+                "label": "What was the SEVERITY of SKIN CRACKING AT THE CORNERS OF YOUR MOUTH at its WORST?",
+                "type": "severity"
+              }]
+            }
+          }
+        }, {
+          "id": "voice-quality-changes",
+          "name": "Voice quality changes",
+          "parentId": "oral-symptoms",
+          "children": [],
+          "clientData": {
+            "generic" : {
+              "questions": [{
+                "label": "Have you had any VOICE CHANGES?",
+                "type": "boolean"
+              }]
+            }
+          }
+        }, {
+          "id": "hoarseness",
+          "name": "Hoarseness",
+          "parentId": "oral-symptoms",
+          "children": [],
+          "clientData": {
+            "generic" : {
+              "questions": [{
+                "label": "Have you had any VOICE CHANGES?",
+                "type": "severity"
+              }]
+            }
+          }
+        }
+      ]
+    }, {
+      "id": "gastrointestinal-symptoms",
+      "name": "Gastrointestinal",
+      "parentId": "symptoms",
+      "children": [
+        {
+          "id": "taste-changes",
+          "name": "Taste changes",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your PROBLEMS WITH TASTING FOOD OR DRINK at their WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "decreased-appetite",
+          "name": "Decreased appetite",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your DECREASED APPETITE at its WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "nausea",
+          "name": "Nausea",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your NAUSEA at its WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "vomiting",
+          "name": "Vomiting",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your VOMITING at its WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "gas",
+          "name": "Gas",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "Have you had any INCREASED PASSING OF GAS (FLATULENCE)?",
+                  "type": "boolean"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "bloating",
+          "name": "Bloating",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your BLOATING OF THE ABDOMEN (BELLY) at its WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "hiccups",
+          "name": "Hiccups",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your HICCUPS at their WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "constipation",
+          "name": "Constipation",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your CONSTIPATION at its WORST?",
+                  "type": "severity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "diarrhea",
+          "name": "Diarrhea",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "How OFTEN did you have LOOSE OR WATERY STOOLS (DIARRHEA/DIARRHOEA)?",
+                  "type": "frequency"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "abdominal-pain",
+          "name": "Abdominal pain",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "What was the SEVERITY of your PAIN IN THE ABDOMEN (BELLY AREA) at its WORST?",
+                  "type": "severity"
+                },
+                {
+                  "label": "How much did PAIN IN THE ABDOMEN (BELLY AREA) INTERFERE with your usual or daily activities?",
+                  "type": "quantity"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "fecal-incontinence",
+          "name": "Fecal incontinence",
+          "parentId": "gastrointestinal-symptoms",
+          "children": [],
+          "clientData": {
+            "generic": {
+              "questions": [
+                {
+                  "label": "How much did LOSS OF CONTROL OF BOWEL MOVEMENTS INTERFERE with your usual or daily activities?",
+                  "type": "quantity"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }, {
+      "id": "respiratory-symptoms",
+      "name": "Respiratory",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "shortness-of-breath",
+        "name": "Shortness of breath",
+        "parentId": "respiratory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your COUGH at its WORST?",
+              "type": "severity"
+            },{
+              "label": "How much did COUGH INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "cough",
+        "name": "Cough",
+        "parentId": "respiratory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your COUGH at its WORST?",
+              "type": "severity"
+            },{
+              "label": "How much did COUGH INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "wheezing",
+        "name": "Wheezing",
+        "parentId": "respiratory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your WHEEZING (WHISTLING NOISE IN THE CHEST WITH BREATHING) at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "cardio-circulatory-symptoms",
+      "name": "Cardio/Circulatory",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "swelling",
+        "name": "Swelling",
+        "parentId": "cardio-circulatory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your ARM OR LEG SWELLING at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did ARM OR LEG SWELLING INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "heart-palpitations",
+        "name": "Heart palpitations",
+        "parentId": "cardio-circulatory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your POUNDING OR RACING HEARTBEAT (PALPITATIONS)? at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "cutaneous-symptoms",
+      "name": "Cutaneous",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "rash",
+        "name": "Rash",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had a RASH?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "skin-dryness",
+        "name": "Skin dryness",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your DRY SKIN at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "acne",
+        "name": "Acne",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your ACNE OR PIMPLES ON THE FACE OR CHEST at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "hair-loss",
+        "name": "Hair loss",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Did you have any HAIR LOSS?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "itching",
+        "name": "Itching",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your ITCHY SKIN at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "hives",
+        "name": "Hives",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had HIVES (ITCHY RED BUMPS ON THE SKIN)?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "hand-foot-syndrome",
+        "name": "Hand-foot syndrome",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your HAND-FOOT SYNDROME (A RASH OF THE HANDS OR FEET THAT CAN CAUSE CRACKING, PEELING, REDNESS OR PAIN) at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "nail-loss",
+        "name": "Nail loss",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you lost any FINGERNAILS OR TOENAILS?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "nail-ridging",
+        "name": "Nail ridging",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have yoy had any RIDGES OR BUMPS ON YOUR FINGERNAILS OR TOENAILS?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "nail-discoloration",
+        "name": "Nail discoloration",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any CHANGE IN THE COLOR OF YOUR FINGERNAILS OR TOENAILS?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "sensitivity-to-sunlight",
+        "name": "Sensitivity to sunlight",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had INCREASED SKIN SENSITIVITY TO SUNLIGHT?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "bed-pressure-sores",
+        "name": "Bed/pressure sores",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had INCREASED SKIN SENSITIVITY TO SUNLIGHT?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "radiation-skin-reaction",
+        "name": "Radiation skin reaction",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your SKIN BURNS FROM RADIATION at their WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "skin-darkening",
+        "name": "Skin darkening",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any UNUSUAL DARKENING OF THE SKIN?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "stretch-marks",
+        "name": "Stretch marks",
+        "parentId": "cutaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any STRETCH MARKS?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "neurological-symptoms",
+      "name": "Neurological",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "numbness-and-tingling",
+        "name": "Numbness & tingling",
+        "parentId": "neurological-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your NUMBNESS OR TINGLING IN YOUR HANDS OR FEET at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did NUMBNESS OR TINGLING IN YOUR HANDS OR FEET INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "dizziness",
+        "name": "Dizziness",
+        "parentId": "neurological-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your DIZZINESS at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did DIZZINESS INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "visual-perceptual",
+      "name": "Visual/Perceptual",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "blurred-vision",
+        "name": "Blurred vision",
+        "parentId": "visual-perceptual",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your BLURRY VISION at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did BLURRY VISION INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "flashing-lights",
+        "name": "Flashing lights",
+        "parentId": "visual-perceptual",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any FLASHING LIGHTS IN FRONT OF YOUR EYES?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "visual-floaters",
+        "name": "Visual floaters",
+        "parentId": "visual-perceptual",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any SPOTS OR LINES (FLOATERS) THAT DRIFT IN FRONT OF YOUR EYES?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "watery-eyes",
+        "name": "Watery eyes",
+        "parentId": "visual-perceptual",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your WATERY EYES (TEARING) at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did WATERY EYES (TEARING) INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "ringing-in-ears",
+        "name": "Ringing in ears",
+        "parentId": "visual-perceptual",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of RINGING IN YOUR EARS at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }]
+
+    }, {
+      "id": "attention-memory-symptoms",
+      "name": "Attention/memory",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "concentration",
+        "name": "Concentration",
+        "parentId": "attention-memory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your PROBLEMS WITH CONCENTRATION at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did PROBLEMS WITH CONCENTRATION INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "memory",
+        "name": "Memory",
+        "parentId": "attention-memory-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your PROBLEMS WITH MEMORY at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did PROBLEMS WITH MEMORY INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "pain-symptoms",
+      "name": "Pain",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "general-pain",
+        "name": "General pain",
+        "parentId": "pain-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your PAIN at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "What was the SEVERITY of your PAIN at its WORST?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "headache",
+        "name": "Headache",
+        "parentId": "pain-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your HEADACHE at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did your HEADACHE INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "muscle-pain",
+        "name": "Muscle pain",
+        "parentId": "pain-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your ACHING MUSCLES at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did ACHING MUSCLES INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "joint-pain",
+        "name": "Joint pain",
+        "parentId": "pain-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS) at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS) INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "sleep-wake-symptoms",
+      "name": "Sleep/Wake",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "insomnia",
+        "name": "Insomnia",
+        "parentId": "sleep-wake-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your INSOMNIA (INCLUDING DIFFICULTY FALLING ASLEEP, STAYING ASLEEP, OR WAKING UP EARLY) at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did INSOMNIA (INCLUDING DIFFICULTY FALLING ASLEEP, STAYING ASLEEP, OR WAKING UP EARLY) INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "fatigue",
+        "name": "Fatigue",
+        "parentId": "sleep-wake-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your FATIGUE, TIREDNESS, OR LACK OF ENERGY at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did FATIGUE, TIREDNESS, OR LACK OF ENERGY INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "mood-symptoms",
+      "name": "Mood",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "anxious",
+        "name": "Anxious",
+        "parentId": "mood-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your ANXIETY at its WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did ANXIETY INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "discouraged",
+        "name": "Discouraged",
+        "parentId": "mood-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your FEELINGS THAT NOTHING COULD CHEER YOU UP at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did FEELING THAT NOTHING COULD CHEER YOU UP INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "sad",
+        "name": "Sad",
+        "parentId": "mood-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your SAD OR UNHAPPY FEELINGS at their WORST?",
+              "type": "severity"
+            }, {
+              "label": "How much did SAD OR UNHAPPY FEELINGS INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }]
+
+    }, {
+      "id": "genitourinary-symptoms",
+      "name": "Genitourinary",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "irregular-periods-vaginal-bleeding",
+        "name": "Irregular periods/vaginal bleeding",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any IRREGULAR MENSTRUAL PERIODS?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "missed-expected-menstrual-period",
+        "name": "Missed expected menstrual period",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Did you MISS AN EXPECTED MENSTRUAL PERIOD?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "vaginal-discharge",
+        "name": "Vaginal discharge",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Did you have any UNUSUAL VAGINAL DISCHARGE?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "vaginal-dryness",
+        "name": "Vaginal dryness",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your VAGINAL DRYNESS at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "painful-urination",
+        "name": "Painful urination",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your PAIN OR BURNING WITH URINATION at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "urinary-urgency",
+        "name": "Urinary urgency",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "How much did SUDDEN URGES TO URINATE INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "urinary-frequency",
+        "name": "Urinary frequency",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "How much did FREQUENT URINATION INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }, {
+        "id": "change-in-usual-urine-colour",
+        "name": "Change in usual urine colour",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any URINE COLOR CHANGE?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "urinary-incontinence",
+        "name": "Urinary incontinence",
+        "parentId": "genitourinary-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "How much did LOSS OF CONTROL OF URINE (LEAKAGE) INTERFERE with your usual or daily activities?",
+              "type": "quantity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "sexual-symptoms",
+      "name": "Sexual",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "achieve-and-maintain-erection",
+        "name": "Achieve and maintain erection",
+        "parentId": "sexual-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your DIFFICULTY GETTING OR KEEPING AN ERECTION at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "ejaculation-symptoms",
+        "name": "Ejaculation",
+        "parentId": "sexual-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "How OFTEN did you have EJACULATION PROBLEMS?",
+              "type": "frequency"
+            }]
+          }
+        }
+      }, {
+        "id": "decreased-libido",
+        "name": "Decreased libido",
+        "parentId": "sexual-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your DECREASED SEXUAL INTEREST at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "delayed-orgasm",
+        "name": "Delayed orgasm",
+        "parentId": "sexual-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you felt that it TOOK TOO LONG TO HAVE AN ORGASM OR CLIMAX?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "unable-to-have-orgasm",
+        "name": "Unable to have orgasm",
+        "parentId": "sexual-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you been UNABLE TO HAVE AN ORGASM OR CLIMAX?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "pain-w-sexual-intercourse",
+        "name": "Pain w/sexual intercourse",
+        "parentId": "sexual-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your PAIN DURING VAGINAL SEX at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "miscellaneous-symptoms",
+      "name": "Miscellaneous",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "breast-swelling-and-tenderness",
+        "name": "Breast swelling and tenderness",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your BREAST AREA ENLARGEMENT OR TENDERNESS at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "bruising",
+        "name": "Bruising",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you BRUISED EASILY (BLACK AND BLUE MARKS)?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "chills",
+        "name": "Chills",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your SHIVERING OR SHAKING CHILLS at their WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "increased-sweating",
+        "name": "Increased sweating",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your UNEXPECTED OR EXCESSIVE SWEATING DURING THE DAY OR NIGHTTIME (NOT RELATED TO HOT FLASHES/FLUSHES) at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "decreased-sweating",
+        "name": "Decreased sweating",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had an UNEXPECTED DECREASE IN SWEATING?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "hot-flashes",
+        "name": "Hot flashes",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your HOT FLASHES/FLUSHES at their WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "nosebleed",
+        "name": "Nosebleed",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your NOSEBLEEDS at their WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }, {
+        "id": "pain-and-swelling-at-injection-site",
+        "name": "Pain and swelling at injection site",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had ANY PAIN, SWELLING, OR REDNESS AT A SITE OF DRUG INJECTION OR IV?",
+              "type": "boolean"
+            }]
+          }
+        }
+      }, {
+        "id": "body-odor",
+        "name": "Body odor",
+        "parentId": "miscellaneous-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "What was the SEVERITY of your BODY ODOR at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }]
+    }, {
+      "id": "other-symptoms",
+      "name": "Other",
+      "parentId": "symptoms",
+      "children": [{
+        "id": "other",
+        "name": "Other",
+        "parentId": "other-symptoms",
+        "children": [],
+        "clientData": {
+          "generic": {
+            "questions": [{
+              "label": "Have you had any other symptoms that you wish to report?",
+              "type": "boolean"
+            }, {
+              "label": "What was the SEVERITY of this symptom at its WORST?",
+              "type": "severity"
+            }]
+          }
+        }
+      }]
+    }]
+  }, {
+    "id": "personal-data",
+    "name": "Personal Data",
+    "parentId": "unify-streams",
+    "clientData": {
+      "type": "personal-data/object"
+    },
+    "children": [{
+      "id": "user-data",
+      "name": "User data",
+      "parentId": "personal-data",
+      "children": [],
+      "type": "user-data/object"
+    }]
+  }, {
+    "id": "medications",
+    "name": "Medications",
+    "parentId": "unify-streams",
+    "clientData": {
+      "type": "medication/object"
+    },
+    "children": []
+  }]
+}
