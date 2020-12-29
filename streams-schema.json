@@ -1229,21 +1229,23 @@
     "name": "Personal Data",
     "parentId": "unify-streams",
     "clientData": {
-      "type": "personal-data/object"
+      "eventType": "personal-data/object"
     },
     "children": [{
       "id": "user-data",
       "name": "User data",
       "parentId": "personal-data",
       "children": [],
-      "type": "user-data/object"
+      "clientData": {
+        "eventType": "user-data/object"
+      }
     }]
   }, {
     "id": "medications",
     "name": "Medications",
     "parentId": "unify-streams",
     "clientData": {
-      "type": "medication/object"
+      "eventType": "medication/object"
     },
     "children": []
   }]
