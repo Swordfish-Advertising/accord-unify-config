@@ -332,7 +332,7 @@
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             },{
              "shortLabel":"BLANK",
-              "label": "How much did COUGH INTERFERE with your usual or daily activities?",
+              "label": "How much did cough interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -346,11 +346,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your COUGH at its WORST?",
+              "label": "What was the severity of your cough at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             },{
              "shortLabel":"BLANK",
-              "label": "How much did COUGH INTERFERE with your usual or daily activities?",
+              "label": "how much did cough interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -364,7 +364,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your WHEEZING (WHISTLING NOISE IN THE CHEST WITH BREATHING) at its WORST?",
+              "label": "What was the severity of your wheezing (whistling noise in the chest with breathing) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -383,11 +383,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your ARM OR LEG SWELLING at its WORST?",
+              "label": "What was the severity of your arm or leg swelling at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did ARM OR LEG SWELLING INTERFERE with your usual or daily activities?",
+              "label": "How much did arm or leg swelling interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -401,7 +401,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your POUNDING OR RACING HEARTBEAT (PALPITATIONS)? at its WORST?",
+              "label": "What was the severity of your pounding or racing heartbeat (palpitations)? at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -420,7 +420,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had a RASH?",
+              "label": "Have you had a rash?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -434,7 +434,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your DRY SKIN at its WORST?",
+              "label": "What was the severity of your dry skin at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -448,7 +448,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your ACNE OR PIMPLES ON THE FACE OR CHEST at its WORST?",
+              "label": "What was the severity of your acne or pimples on the face or chest at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -462,7 +462,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Did you have any HAIR LOSS?",
+              "label": "Did you have any hair loss?",
               "type": "SYMPTOM_AMOUNT_TYPES"
             }]
 
@@ -476,7 +476,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your ITCHY SKIN at its WORST?",
+              "label": "What was the severity of your itchy skin at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -490,7 +490,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had HIVES (ITCHY RED BUMPS ON THE SKIN)?",
+              "label": "Have you had hives (itchy red bumps on the skin)?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -504,7 +504,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your HAND-FOOT SYNDROME (A RASH OF THE HANDS OR FEET THAT CAN CAUSE CRACKING, PEELING, REDNESS OR PAIN) at its WORST?",
+              "label": "What was the severity of your hand-foot syndrome (a rash of the hands or feet that can cause cracking, peeling, redness or pain) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -518,7 +518,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you lost any FINGERNAILS OR TOENAILS?",
+              "label": "Have you lost any fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -532,7 +532,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have yoy had any RIDGES OR BUMPS ON YOUR FINGERNAILS OR TOENAILS?",
+              "label": "Have yoy had any ridges or bumps on your fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -546,7 +546,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had any CHANGE IN THE COLOR OF YOUR FINGERNAILS OR TOENAILS?",
+              "label": "Have you had any change in the color of your fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -560,7 +560,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had INCREASED SKIN SENSITIVITY TO SUNLIGHT?",
+              "label": "Have you had increased skin sensitivity to sunlight?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -574,7 +574,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had INCREASED SKIN SENSITIVITY TO SUNLIGHT?",
+              "label": "Have you had increased skin sensitivity to sunlight?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -588,7 +588,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your SKIN BURNS FROM RADIATION at their WORST?",
+              "label": "What was the severity of your skin burns from radiation at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -602,7 +602,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had any UNUSUAL DARKENING OF THE SKIN?",
+              "label": "Have you had any unusual darkening of the skin?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -615,7 +615,7 @@
         "clientData": {
 
             "questions": [{
-              "label": "Have you had any STRETCH MARKS?",
+              "label": "Have you had any stretch marks?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -634,11 +634,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your NUMBNESS OR TINGLING IN YOUR HANDS OR FEET at its WORST?",
+              "label": "What was the severity of your numbness or tingling in your hands or feet at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did NUMBNESS OR TINGLING IN YOUR HANDS OR FEET INTERFERE with your usual or daily activities?",
+              "label": "How much did numbness or tingling in your hands or feet interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -652,11 +652,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your DIZZINESS at its WORST?",
+              "label": "What was the severity of your dizziness at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did DIZZINESS INTERFERE with your usual or daily activities?",
+              "label": "How much did dizziness interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -675,11 +675,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your BLURRY VISION at its WORST?",
+              "label": "What was the severity of your blurry vision at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did BLURRY VISION INTERFERE with your usual or daily activities?",
+              "label": "How much did blurry vision interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -693,7 +693,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had any FLASHING LIGHTS IN FRONT OF YOUR EYES?",
+              "label": "Have you had any flashing lights in front of your eyes?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -707,7 +707,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had any SPOTS OR LINES (FLOATERS) THAT DRIFT IN FRONT OF YOUR EYES?",
+              "label": "Have you had any spots or lines (floaters) that drift in front of your eyes?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -721,11 +721,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your WATERY EYES (TEARING) at their WORST?",
+              "label": "What was the severity of your watery eyes (tearing) at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did WATERY EYES (TEARING) INTERFERE with your usual or daily activities?",
+              "label": "How much did watery eyes (tearing) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -739,7 +739,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of RINGING IN YOUR EARS at its WORST?",
+              "label": "What was the severity of ringing in your ears at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -759,11 +759,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your PROBLEMS WITH CONCENTRATION at their WORST?",
+              "label": "What was the severity of your problems with concentration at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did PROBLEMS WITH CONCENTRATION INTERFERE with your usual or daily activities?",
+              "label": "How much did problems with concentration interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -777,11 +777,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your PROBLEMS WITH MEMORY at their WORST?",
+              "label": "What was the severity of your problems with memory at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did PROBLEMS WITH MEMORY INTERFERE with your usual or daily activities?",
+              "label": "How much did problems with memory interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -800,11 +800,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your PAIN at its WORST?",
+              "label": "What was the severity of your pain at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your PAIN at its WORST?",
+              "label": "What was the severity of your pain at its worst?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -818,11 +818,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your HEADACHE at its WORST?",
+              "label": "What was the severity of your headache at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did your HEADACHE INTERFERE with your usual or daily activities?",
+              "label": "How much did your headache interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -836,11 +836,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your ACHING MUSCLES at their WORST?",
+              "label": "What was the severity of your aching muscles at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did ACHING MUSCLES INTERFERE with your usual or daily activities?",
+              "label": "How much did aching muscles interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -854,11 +854,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS) at their WORST?",
+              "label": "What was the severity of your aching joints (such as elbows, knees, shoulders) at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did ACHING JOINTS (SUCH AS ELBOWS, KNEES, SHOULDERS) INTERFERE with your usual or daily activities?",
+              "label": "How much did aching joints (such as elbows, knees, shoulders) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -877,11 +877,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your INSOMNIA (INCLUDING DIFFICULTY FALLING ASLEEP, STAYING ASLEEP, OR WAKING UP EARLY) at its WORST?",
+              "label": "What was the severity of your insomnia (including difficulty falling asleep, staying asleep, or waking up early) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did INSOMNIA (INCLUDING DIFFICULTY FALLING ASLEEP, STAYING ASLEEP, OR WAKING UP EARLY) INTERFERE with your usual or daily activities?",
+              "label": "How much did insomnia (including difficulty falling asleep, staying asleep, or waking up early) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -895,11 +895,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your FATIGUE, TIREDNESS, OR LACK OF ENERGY at its WORST?",
+              "label": "What was the severity of your fatigue, tiredness, or lack of energy at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did FATIGUE, TIREDNESS, OR LACK OF ENERGY INTERFERE with your usual or daily activities?",
+              "label": "How much did fatigue, tiredness, or lack of energy interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -918,11 +918,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your ANXIETY at its WORST?",
+              "label": "What was the severity of your anxiety at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did ANXIETY INTERFERE with your usual or daily activities?",
+              "label": "How much did anxiety interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -936,11 +936,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your FEELINGS THAT NOTHING COULD CHEER YOU UP at their WORST?",
+              "label": "What was the severity of your feelings that nothing could cheer you up at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did FEELING THAT NOTHING COULD CHEER YOU UP INTERFERE with your usual or daily activities?",
+              "label": "How much did feeling that nothing could cheer you up interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -954,11 +954,11 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your SAD OR UNHAPPY FEELINGS at their WORST?",
+              "label": "What was the severity of your sad or unhappy feelings at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
-              "label": "How much did SAD OR UNHAPPY FEELINGS INTERFERE with your usual or daily activities?",
+              "label": "How much did sad or unhappy feelings interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -978,7 +978,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had any IRREGULAR MENSTRUAL PERIODS?",
+              "label": "Have you had any irregular menstrual periods?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
             }]
 
@@ -992,7 +992,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Did you MISS AN EXPECTED MENSTRUAL PERIOD?",
+              "label": "Did you miss an expected menstrual period?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
             }]
 
@@ -1006,7 +1006,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Did you have any UNUSUAL VAGINAL DISCHARGE?",
+              "label": "Did you have any unusual vaginal discharge?",
               "type": "SYMPTOM_AMOUNT_TYPES"
             }]
 
@@ -1020,7 +1020,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your VAGINAL DRYNESS at its WORST?",
+              "label": "What was the severity of your vaginal dryness at its worsT?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1034,7 +1034,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your PAIN OR BURNING WITH URINATION at its WORST?",
+              "label": "What was the severity of your pain or burning with urination at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1048,7 +1048,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "How much did SUDDEN URGES TO URINATE INTERFERE with your usual or daily activities?",
+              "label": "How much did sudden urges to urinate interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -1062,7 +1062,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "How much did FREQUENT URINATION INTERFERE with your usual or daily activities?",
+              "label": "How much did frequent urination interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -1076,7 +1076,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had any URINE COLOR CHANGE?",
+              "label": "Have you had any urine color change?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -1090,7 +1090,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "How much did LOSS OF CONTROL OF URINE (LEAKAGE) INTERFERE with your usual or daily activities?",
+              "label": "How much did loss of control of urine (leakage) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -1109,7 +1109,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your DIFFICULTY GETTING OR KEEPING AN ERECTION at its WORST?",
+              "label": "What was the severity of your difficulty getting or keeping an erection at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_7_OPTIONS"
             }]
 
@@ -1123,7 +1123,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "How OFTEN did you have EJACULATION PROBLEMS?",
+              "label": "How often did you have ejaculation problems?",
               "type": "SYMPTOM_FREQUENCY_TYPES_7_OPTIONS"
             }]
 
@@ -1137,7 +1137,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your DECREASED SEXUAL INTEREST at its WORST?",
+              "label": "What was the severity of your decreased sexual interest at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_7_OPTIONS"
             }]
 
@@ -1151,7 +1151,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you felt that it TOOK TOO LONG TO HAVE AN ORGASM OR CLIMAX?",
+              "label": "Have you felt that it took too long to have an orgasm or climax?",
               "type": "SYMPTOM_PRESENCE_TYPES_5_OPTIONS"
             }]
 
@@ -1165,7 +1165,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you been UNABLE TO HAVE AN ORGASM OR CLIMAX?",
+              "label": "Have you been unable to have an orgasm or climax?",
               "type": "SYMPTOM_PRESENCE_TYPES_5_OPTIONS"
             }]
 
@@ -1179,7 +1179,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your PAIN DURING VAGINAL SEX at its WORST?",
+              "label": "What was the severity of your pain during vaginal sex at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_7_OPTIONS"
             }]
 
@@ -1198,7 +1198,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your BREAST AREA ENLARGEMENT OR TENDERNESS at its WORST?",
+              "label": "What was the severity of your breast area enlargement or tenderness at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1212,7 +1212,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you BRUISED EASILY (BLACK AND BLUE MARKS)?",
+              "label": "Have you bruised easily (black and blue marks)?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -1226,7 +1226,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your SHIVERING OR SHAKING CHILLS at their WORST?",
+              "label": "What was the severity of your shivering or shaking chills at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1240,7 +1240,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your UNEXPECTED OR EXCESSIVE SWEATING DURING THE DAY OR NIGHTTIME (NOT RELATED TO HOT FLASHES/FLUSHES) at its WORST?",
+              "label": "What was the severity of your unexpected or excessive sweating during the day or nighttime (not related to hot flashes/flushes) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1254,7 +1254,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had an UNEXPECTED DECREASE IN SWEATING?",
+              "label": "Have you had an unexpected decrease in sweating?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -1268,7 +1268,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your HOT FLASHES/FLUSHES at their WORST?",
+              "label": "What was the severity of your hot flashes/flushes at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1282,7 +1282,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your NOSEBLEEDS at their WORST?",
+              "label": "What was the severity of your nosebleeds at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1296,7 +1296,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "Have you had ANY PAIN, SWELLING, OR REDNESS AT A SITE OF DRUG INJECTION OR IV?",
+              "label": "Have you had any pain, swelling, or redness at a site of drug injection or iv?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
             }]
 
@@ -1310,7 +1310,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of your BODY ODOR at its WORST?",
+              "label": "What was the severity of your body odor at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1329,7 +1329,7 @@
 
             "questions": [{
              "shortLabel":"BLANK",
-              "label": "What was the SEVERITY of this symptom at its WORST?",
+              "label": "What was the severity of this symptom at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
