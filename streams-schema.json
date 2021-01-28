@@ -1316,25 +1316,6 @@
 
         }
       }]
-    }, {
-      "id": "other-symptoms",
-      "name": "Other",
-      "parentId": "symptoms",
-      "children": [{
-        "id": "other",
-        "name": "Other",
-        "parentId": "other-symptoms",
-        "children": [],
-        "clientData": {
-
-            "questions": [{
-             "shortLabel":"BLANK",
-              "label": "What was the severity of this symptom at its worst?",
-              "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
-            }]
-
-        }
-      }]
     }]
   }, {
     "id": "personal-data",
