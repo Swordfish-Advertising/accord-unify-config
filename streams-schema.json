@@ -268,7 +268,8 @@
 
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::diarrhea",
+                  "shortLabel":"BLANK",
                   "label": "How often did you have loose or watery stools (diarrhea/diarrhoea)?",
                   "type": "SYMPTOM_FREQUENCY_TYPES_5_OPTIONS"
                 }
