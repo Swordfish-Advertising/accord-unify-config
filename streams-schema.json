@@ -19,7 +19,8 @@
           "clientData": {
 
               "questions": [{
-                "shortLabel":"Dry mouth",
+                "id": "question::dry-mouth",
+                "shortLabel": "Dry mouth",
                 "label": "What is the severity of your dry mouth at its worst?",
                 "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
               }]
