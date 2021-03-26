@@ -34,7 +34,8 @@
           "clientData": {
 
               "questions": [{
-               "shortLabel":"Difficulty swallowing",
+                "id": "question::difficulty-swallowing",
+                "shortLabel":"Difficulty swallowing",
                 "label": "What is the severity of your difficulty swallowing at its worst?",
                 "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
               }]
@@ -48,10 +49,12 @@
           "clientData": {
 
               "questions": [{
-                 "shortLabel":"Mouth/throat sores",
+                "id": "question::mouth-throat-sores",
+                "shortLabel":"Mouth/throat sores",
                 "label": "What is the severity of your mouth or throat sores at its worst?",
                 "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
               }, {
+                "id": "question::daily-activities-interfere",
                 "label": "How much do mouth or throat sores interfere with your usual or daily activities?",
                 "type": "SYMPTOM_INTERFERENCE_TYPES"
               }]
@@ -65,6 +68,7 @@
           "clientData": {
 
               "questions": [{
+                "id": "question::cheilosis-cheilitis",
                 "shortLabel":"Cheilosis/cheilitis",
                 "label": "What is the severity of skin cracking at the corners of your mouth at its worst?",
                 "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
@@ -79,7 +83,8 @@
           "clientData": {
 
               "questions": [{
-               "shortLabel":"Voice changes",
+                "id": "question::voice-changes",
+                "shortLabel":"Voice changes",
                 "label": "Have you had any voice changes?",
                 "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
               }]
@@ -91,9 +96,9 @@
           "parentId": "oral-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [{
-              "shortLabel":"Hoarseness",
+                "id": "question::hoarseness",
+                "shortLabel":"Hoarseness",
                 "label": "What is the severity of your hoarse voice at its worst?",
                 "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
               }]
@@ -112,9 +117,9 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
+                  "id": "question::severity-of-tasting-food",
                   "shortLabel":"BLANK",
                   "label": "What is the severity of your problems with tasting food or drink at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
@@ -129,10 +134,10 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-decreased-appetite",
+                  "shortLabel":"BLANK",
                   "label": "What is the severity of your decreased appetite at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -149,7 +154,8 @@
 
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-nausea",
+                  "shortLabel":"BLANK",
                   "label": "What is the severity of your nausea at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -163,10 +169,10 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-vomiting",
+                  "shortLabel":"BLANK",
                   "label": "What is the severity of your vomiting at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -180,10 +186,10 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-heartburn",
+                  "shortLabel":"BLANK",
                   "label": "What is the severity of your heartburn at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -200,7 +206,8 @@
 
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::have-you-had-increased-gas",
+                  "shortLabel":"BLANK",
                   "label": "Have you had any increased passing of gas (Flatulence)?",
                   "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
                 }
@@ -217,7 +224,8 @@
 
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-bloating-of-belly",
+                  "shortLabel":"BLANK",
                   "label": "what was the severity of your bloating of the abdomen (belly) at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -234,7 +242,8 @@
 
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-hiccups",
+                  "shortLabel":"BLANK",
                   "label": "What is the severity of your hiccups at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -248,10 +257,10 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-constipation",
+                  "shortLabel":"BLANK",
                   "label": "What was the severity of your constipation at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 }
@@ -268,7 +277,7 @@
 
               "questions": [
                 {
-                  "id": "question::diarrhea",
+                  "id": "question::how-often-loose-stools",
                   "shortLabel":"BLANK",
                   "label": "How often did you have loose or watery stools (diarrhea/diarrhoea)?",
                   "type": "SYMPTOM_FREQUENCY_TYPES_5_OPTIONS"
@@ -283,15 +292,16 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::severity-of-pain-of-belly",
+                  "shortLabel":"BLANK",
                   "label": "what was the severity of your pain in the abdomen (belly area) at its worst?",
                   "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
                 },
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::how-much-pain-in-the-abdomen",
+                  "shortLabel":"BLANK",
                   "label": "How much did pain in the abdomen (belly area) interfere with your usual or daily activities?",
                   "type": "SYMPTOM_INTERFERENCE_TYPES"
                 }
@@ -305,10 +315,10 @@
           "parentId": "gastrointestinal-symptoms",
           "children": [],
           "clientData": {
-
               "questions": [
                 {
-                 "shortLabel":"BLANK",
+                  "id": "question::how-much-loss-of-control-of-bowel-movements",
+                  "shortLabel":"BLANK",
                   "label": "How much did loss of control of bowel movements interfere with your usual or daily activities?",
                   "type": "SYMPTOM_INTERFERENCE_TYPES"
                 }
@@ -327,13 +337,14 @@
         "parentId": "respiratory-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::shortness-of-breath-severity-of-cough",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your cough at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             },{
-             "shortLabel":"BLANK",
+              "id": "question::cough-interfere-of-daily-activities",
+              "shortLabel":"BLANK",
               "label": "How much did cough interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -347,11 +358,13 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-cough-respiratory",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your cough at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             },{
-             "shortLabel":"BLANK",
+              "id": "question::cough-interfere-with-daily-activities-respiratory",
+              "shortLabel":"BLANK",
               "label": "how much did cough interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -363,9 +376,9 @@
         "parentId": "respiratory-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-wheezing",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your wheezing (whistling noise in the chest with breathing) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -382,13 +395,14 @@
         "parentId": "cardio-circulatory-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-arm-or-leg-swelling",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your arm or leg swelling at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question::interfere-of-arm-or-leg-swelling",
+              "shortLabel":"BLANK",
               "label": "How much did arm or leg swelling interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -400,9 +414,9 @@
         "parentId": "cardio-circulatory-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-racing-heartbeat",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your pounding or racing heartbeat (palpitations)? at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -419,9 +433,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::have-you-had-a-rash",
+              "shortLabel":"BLANK",
               "label": "Have you had a rash?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -435,7 +449,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-dry-skin",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your dry skin at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -447,9 +462,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-acne",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your acne or pimples on the face or chest at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -461,9 +476,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::any-hair-loss",
+              "shortLabel":"BLANK",
               "label": "Did you have any hair loss?",
               "type": "SYMPTOM_AMOUNT_TYPES"
             }]
@@ -475,9 +490,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-itchy-skin",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your itchy skin at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -489,9 +504,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::have-hives",
+              "shortLabel":"BLANK",
               "label": "Have you had hives (itchy red bumps on the skin)?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -505,7 +520,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-hand-foot-foot-syndrome",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your hand-foot syndrome (a rash of the hands or feet that can cause cracking, peeling, redness or pain) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -519,7 +535,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::have-lost-of-nails",
+              "shortLabel":"BLANK",
               "label": "Have you lost any fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -531,9 +548,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::have-ridges",
+              "shortLabel":"BLANK",
               "label": "Have yoy had any ridges or bumps on your fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -545,9 +562,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::change-of-nail-color",
+              "shortLabel":"BLANK",
               "label": "Have you had any change in the color of your fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -561,7 +578,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::have-increased-skin-sensitivity",
+              "shortLabel":"BLANK",
               "label": "Have you had increased skin sensitivity to sunlight?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -575,7 +593,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::bed-pressure-sore-question-1",
+              "shortLabel":"BLANK",
               "label": "Have you had increased skin sensitivity to sunlight?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -589,7 +608,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::severity-of-skin-burns-from-radiation",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your skin burns from radiation at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -601,9 +621,9 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::have-unusal-darkening-of-the-skin",
+              "shortLabel":"BLANK",
               "label": "Have you had any unusual darkening of the skin?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -615,8 +635,8 @@
         "parentId": "cutaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
+              "id": "question::have-stretch-marks",
               "label": "Have you had any stretch marks?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -633,13 +653,14 @@
         "parentId": "neurological-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question::neurological-question-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your numbness or tingling in your hands or feet at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question::neurological-question-2",
+              "shortLabel":"BLANK",
               "label": "How much did numbness or tingling in your hands or feet interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -653,11 +674,13 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:dizziness-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your dizziness at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:dizziness-2",
+              "shortLabel":"BLANK",
               "label": "How much did dizziness interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -674,13 +697,14 @@
         "parentId": "visual-perceptual",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:visual-perceptual-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your blurry vision at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "shortLabel":"BLANK",
+              "id": "question:visual-perceptual-2",
               "label": "How much did blurry vision interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -692,9 +716,9 @@
         "parentId": "visual-perceptual",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:flashing-lights-1",
+              "shortLabel":"BLANK",
               "label": "Have you had any flashing lights in front of your eyes?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -706,9 +730,9 @@
         "parentId": "visual-perceptual",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:visual-floaters-1",
+              "shortLabel":"BLANK",
               "label": "Have you had any spots or lines (floaters) that drift in front of your eyes?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -720,13 +744,14 @@
         "parentId": "visual-perceptual",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:watery-eyes-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your watery eyes (tearing) at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
+              "id": "question:watery-eyes-2",
               "label": "How much did watery eyes (tearing) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -738,9 +763,9 @@
         "parentId": "visual-perceptual",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:ringing-in-ears-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of ringing in your ears at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -760,11 +785,13 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:concentration-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your problems with concentration at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:concentration-2",
+              "shortLabel":"BLANK",
               "label": "How much did problems with concentration interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -778,11 +805,13 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:memory-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your problems with memory at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
              "shortLabel":"BLANK",
+              "id": "question:memory-2",
               "label": "How much did problems with memory interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -799,13 +828,14 @@
         "parentId": "pain-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:general-pain-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your pain at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:general-pain-2",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your pain at its worst?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -817,13 +847,14 @@
         "parentId": "pain-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:headache-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your headache at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:headache-2",
+              "shortLabel":"BLANK",
               "label": "How much did your headache interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -835,13 +866,14 @@
         "parentId": "pain-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:muscle-pain-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your aching muscles at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:muscle-pain-2",
+              "shortLabel":"BLANK",
               "label": "How much did aching muscles interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -853,13 +885,14 @@
         "parentId": "pain-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:joint-pain-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your aching joints (such as elbows, knees, shoulders) at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:joint-pain-2",
+              "shortLabel":"BLANK",
               "label": "How much did aching joints (such as elbows, knees, shoulders) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -876,13 +909,14 @@
         "parentId": "sleep-wake-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:insomnia-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your insomnia (including difficulty falling asleep, staying asleep, or waking up early) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:insomnia-2",
+              "shortLabel":"BLANK",
               "label": "How much did insomnia (including difficulty falling asleep, staying asleep, or waking up early) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -894,13 +928,14 @@
         "parentId": "sleep-wake-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:fatigue-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your fatigue, tiredness, or lack of energy at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:fatigue-2",
+              "shortLabel":"BLANK",
               "label": "How much did fatigue, tiredness, or lack of energy interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -917,13 +952,14 @@
         "parentId": "mood-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:anxious-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your anxiety at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:anxious-2",
+              "shortLabel":"BLANK",
               "label": "How much did anxiety interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -935,13 +971,14 @@
         "parentId": "mood-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:discouraged-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your feelings that nothing could cheer you up at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:discouraged-2",
+              "shortLabel":"BLANK",
               "label": "How much did feeling that nothing could cheer you up interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -955,11 +992,13 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:sad-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your sad or unhappy feelings at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }, {
-             "shortLabel":"BLANK",
+              "id": "question:sad-2",
+              "shortLabel":"BLANK",
               "label": "How much did sad or unhappy feelings interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -977,9 +1016,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:irregular-periods-vaginal-bleeding-1",
+              "shortLabel":"BLANK",
               "label": "Have you had any irregular menstrual periods?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
             }]
@@ -991,9 +1030,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:missed-expected-menstrual-period-1",
+              "shortLabel":"BLANK",
               "label": "Did you miss an expected menstrual period?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
             }]
@@ -1005,9 +1044,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:vaginal-discharge-1",
+              "shortLabel":"BLANK",
               "label": "Did you have any unusual vaginal discharge?",
               "type": "SYMPTOM_AMOUNT_TYPES"
             }]
@@ -1019,9 +1058,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:vaginal-dryness-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your vaginal dryness at its worsT?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1033,9 +1072,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:painful-urination-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your pain or burning with urination at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1047,9 +1086,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:urinary-urgency-1",
+              "shortLabel":"BLANK",
               "label": "How much did sudden urges to urinate interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -1061,9 +1100,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:urinary-frequency-1",
+              "shortLabel":"BLANK",
               "label": "How much did frequent urination interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -1075,9 +1114,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:change-in-usual-urine-colour-1",
+              "shortLabel":"BLANK",
               "label": "Have you had any urine color change?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -1089,9 +1128,9 @@
         "parentId": "genitourinary-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:urinary-incontinence-1",
+              "shortLabel":"BLANK",
               "label": "How much did loss of control of urine (leakage) interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
@@ -1108,9 +1147,9 @@
         "parentId": "sexual-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:achieve-and-maintain-erection-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your difficulty getting or keeping an erection at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_7_OPTIONS"
             }]
@@ -1122,9 +1161,9 @@
         "parentId": "sexual-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:ejaculation-symptoms-1",
+              "shortLabel":"BLANK",
               "label": "How often did you have ejaculation problems?",
               "type": "SYMPTOM_FREQUENCY_TYPES_7_OPTIONS"
             }]
@@ -1138,7 +1177,8 @@
         "clientData": {
 
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:decreased-libido-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your decreased sexual interest at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_7_OPTIONS"
             }]
@@ -1150,9 +1190,9 @@
         "parentId": "sexual-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:delayed-orgasm-1",
+              "shortLabel":"BLANK",
               "label": "Have you felt that it took too long to have an orgasm or climax?",
               "type": "SYMPTOM_PRESENCE_TYPES_5_OPTIONS"
             }]
@@ -1164,9 +1204,9 @@
         "parentId": "sexual-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:unable-to-have-orgasm-1",
+              "shortLabel":"BLANK",
               "label": "Have you been unable to have an orgasm or climax?",
               "type": "SYMPTOM_PRESENCE_TYPES_5_OPTIONS"
             }]
@@ -1178,9 +1218,9 @@
         "parentId": "sexual-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:pain-w-sexual-intercourse-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your pain during vaginal sex at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_7_OPTIONS"
             }]
@@ -1197,9 +1237,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:breast-swelling-and-tenderness-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your breast area enlargement or tenderness at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1211,9 +1251,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:bruising-1",
+              "shortLabel":"BLANK",
               "label": "Have you bruised easily (black and blue marks)?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -1225,9 +1265,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:chills-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your shivering or shaking chills at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1239,9 +1279,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:increased-sweating-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your unexpected or excessive sweating during the day or nighttime (not related to hot flashes/flushes) at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1253,9 +1293,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:decreased-sweating-1",
+              "shortLabel":"BLANK",
               "label": "Have you had an unexpected decrease in sweating?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
@@ -1267,9 +1307,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:hot-flashes-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your hot flashes/flushes at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1281,9 +1321,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:nosebleed-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your nosebleeds at their worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
@@ -1295,9 +1335,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:pain-and-swelling-at-injection-site-1",
+              "shortLabel":"BLANK",
               "label": "Have you had any pain, swelling, or redness at a site of drug injection or iv?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
             }]
@@ -1309,9 +1349,9 @@
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
-
             "questions": [{
-             "shortLabel":"BLANK",
+              "id": "question:body-odor-1",
+              "shortLabel":"BLANK",
               "label": "What was the severity of your body odor at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
