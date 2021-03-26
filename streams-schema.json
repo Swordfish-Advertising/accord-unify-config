@@ -1017,7 +1017,7 @@
         "children": [],
         "clientData": {
             "questions": [{
-              "id": "question:genitourinary-symptoms-1",
+              "id": "question:irregular-periods-vaginal-bleeding-1",
               "shortLabel":"BLANK",
               "label": "Have you had any irregular menstrual periods?",
               "type": "SYMPTOM_PRESENCE_TYPES_3_OPTIONS"
