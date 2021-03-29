@@ -338,14 +338,14 @@
         "children": [],
         "clientData": {
             "questions": [{
-              "id": "question::shortness-of-breath-severity-of-cough",
+              "id": "question::shortness-of-breath-severity",
               "shortLabel":"BLANK",
-              "label": "What was the severity of your cough at its worst?",
+              "label": "What is the severity of your shortness of breath at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             },{
-              "id": "question::cough-interfere-of-daily-activities",
+              "id": "question::shortness-of-breath-interfere",
               "shortLabel":"BLANK",
-              "label": "How much did cough interfere with your usual or daily activities?",
+              "label": "How much did your shortness of breath interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
@@ -836,7 +836,7 @@
             }, {
               "id": "question:general-pain-2",
               "shortLabel":"BLANK",
-              "label": "What was the severity of your pain at its worst?",
+              "label": "How much does pain interfere with your usual or daily activities?",
               "type": "SYMPTOM_INTERFERENCE_TYPES"
             }]
 
