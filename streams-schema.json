@@ -595,7 +595,7 @@
             "questions": [{
               "id": "question::bed-pressure-sore-question-1",
               "shortLabel":"BLANK",
-              "label": "Have you had increased skin sensitivity to sunlight?",
+              "label": "Have you had any bed sores?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
