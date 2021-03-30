@@ -551,7 +551,7 @@
             "questions": [{
               "id": "question::have-ridges",
               "shortLabel":"BLANK",
-              "label": "Have yoy had any ridges or bumps on your fingernails or toenails?",
+              "label": "Have you had any ridges or bumps on your fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
