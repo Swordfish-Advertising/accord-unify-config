@@ -1345,14 +1345,14 @@
         }
       }, {
         "id": "body-odor",
-        "name": "Body odor",
+        "name": "Body odour",
         "parentId": "miscellaneous-symptoms",
         "children": [],
         "clientData": {
             "questions": [{
               "id": "question:body-odor-1",
               "shortLabel":"BLANK",
-              "label": "What was the severity of your body odor at its worst?",
+              "label": "What was the severity of your body odour at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
