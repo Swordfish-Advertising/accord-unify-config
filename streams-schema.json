@@ -565,7 +565,7 @@
             "questions": [{
               "id": "question::change-of-nail-color",
               "shortLabel":"BLANK",
-              "label": "Have you had any change in the color of your fingernails or toenails?",
+              "label": "Have you had any change in the colour of your fingernails or toenails?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
@@ -1061,7 +1061,7 @@
             "questions": [{
               "id": "question:vaginal-dryness-1",
               "shortLabel":"BLANK",
-              "label": "What was the severity of your vaginal dryness at its worsT?",
+              "label": "What was the severity of your vaginal dryness at its worst?",
               "type": "SYMPTOM_SEVERITY_TYPES_5_OPTIONS"
             }]
 
@@ -1117,7 +1117,7 @@
             "questions": [{
               "id": "question:change-in-usual-urine-colour-1",
               "shortLabel":"BLANK",
-              "label": "Have you had any urine color change?",
+              "label": "Have you had any urine colour change?",
               "type": "SYMPTOM_PRESENCE_TYPES_BOOLEAN"
             }]
 
